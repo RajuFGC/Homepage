@@ -8,18 +8,30 @@
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="index.html">Strona Główna</a>
+        <a href="nauka-html.html">Nauka HTML</a>
+      </nav>
+    </header>
     <main>
-      <header>
+      <header id="up">
         <h1>Maciek Korsan - Strona Domowa</h1>
       </header>
       <section>
         <h2>Kim jestem?</h2>
+        <img class="Raju" src="Monster truck.JPG" alt="Wojciech Majewski" />
         <p>
-          Hej! NA co dzień uczę wspaniałych ludzi tajnej sztuki frontendu i
-          pracuje jako frontend developer w kilku produktach.Poza tym bardzo
-          lubię robić zdjęcia i latać dronem. Witam cię na mojej stronie
-          domowej, mam nadzieje że znajdziesz tu trochę przydatnych rzeczy.
+          Hej! NA co dzień uczę wspaniałych ludzi tajnej sztuki frontendu w
+          ramach szkolenia
+          <a href="https://cotenfrontend.pl" target="_blank">WTF</a> i pracuje
+          jako frontend developer w kilku produktach.
+          <br />
+          Poza tym bardzo lubię robić zdjęcia i latać dronem.<br />
+          Witam cię na mojej stronie domowej, mam nadzieje że znajdziesz tu
+          trochę przydatnych rzeczy.
         </p>
+        <p>Poczytaj więccej o <a href="#szkolenie"> nagrywaniu szkolenia</a></p>
       </section>
       <section>
         <h2>Notatki z WTF: Co ten Frontennd</h2>
@@ -40,7 +52,7 @@
           <h3>Git</h3>
           <p>to jest treść dotycząca gita</p>
         </article>
-        <article>
+        <article id="szkolenie">
           <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
           <p>
             Na początku myślałem, że całe szkolenie nagram w 2 tygodnie (o ja
@@ -51,10 +63,10 @@
           </p>
         </article>
       </section>
-      <footer>
-        Strona domowa Maćka Korsana, wszystkie efekty są efektem tworzenia
-        szkolenia WTF: co ten frontend.
-      </footer>
     </main>
+    <footer>
+      Strona domowa Maćka Korsana, wszystkie efekty są efektem tworzenia
+      szkolenia WTF: co ten frontend.<a href="#up">Do góry🐱‍🏍🔝</a>
+    </footer>
   </body>
 </html>
