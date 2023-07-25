@@ -1,18 +1,57 @@
 body {
-  background-color: orange;
+  background-color: whitesmoke;
+  margin-bottom: 1000px;
+}
+.czerwony {
+  color: red;
 }
 
 h1 {
-  color: darkgreen;
+  color: purple;
 }
 h2 {
   color: #4c26b48f;
   background-color: white;
 }
 section {
-  background-color: burlywood;
+  background-color: whitesmoke;
 }
 .Raju {
   width: 80px;
   height: 95px;
+}
+
+#szkolenie {
+  background-color: red;
+}
+
+p {
+  color: blue;
+}
+
+.paragraph {
+  color: chartreuse;
+}
+
+a {
+  color: green;
+}
+
+section a {
+  color: orange;
+}
+.my-article {
+  color: hotpink;
+}
+
+.my-article p {
+  color: yellow;
+  background-color: darkblue;
+}
+
+#name {
+  color: red;
+}
+.about {
+  color: purple;
 }
