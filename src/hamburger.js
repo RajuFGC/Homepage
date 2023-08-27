@@ -12,9 +12,7 @@ headerH3.style.color = 'blue';
 
 
 
-function calculate(myNumber) {
-  return myNumber+5;
-}
+
 
 const calculate1 = (myNumber) => {
   myNumber = myNumber + 3;
