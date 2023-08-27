@@ -1,0 +1,222 @@
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  max-width: 768px;
+  margin: 0 auto;
+}
+h1 {
+  color: purple;
+  padding: 10px;
+}
+h2 {
+  color: #4c26b48f;
+  background-color: white;
+}
+section {
+  background-color: whitesmoke;
+  padding: 10px;
+  color: purple;
+}
+.section_header {
+  color: red;
+}
+section a {
+  color: orange;
+  
+}
+
+section p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.Raju {
+  border-radius: 5px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 350px;
+}
+
+#szkolenie {
+  background-color: red;
+  padding: 15px;
+  color: yellow;
+  margin: 0;
+}
+.paragraph {
+  color: chartreuse;
+}
+.my-article p {
+  padding: 15px;
+  color: yellow;
+  background-color: darkblue;
+  margin: 0;
+}
+
+.my-article {
+  color: black
+  }
+  .my-article__list {
+  list-style-type: circle;
+  }
+
+.navigation-link {
+  color: yellow;
+  margin: 5px;
+}
+.navigation {
+  display: none;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  gap: 24px;
+  position: absolute;
+  top: 33px;
+  width: 100%;
+}
+.navigation-open {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  gap: 24px;
+  position: absolute;
+  top: 33px;
+  width: 100%;
+}
+.hamburger {
+  padding: 4px;
+  background: none;
+  border: none;
+  font-size: 30px;
+}
+.header {
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  min-height: 33px;
+  background: blue;
+}
+.page-header {
+  padding: 10px;
+}
+.page-header_heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.page-header_button {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  footer {
+    padding: 10px;
+    color: red;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+.footer__top-link {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  color: white;
+  padding: 8px 12px;
+  background-color: black;
+  border-radius: 8px;
+  display: block;
+}
+.footer-description {
+  
+}
+
+.text-distnguish {
+color: grey;
+}
+
+
+table {
+  width: 100%;
+  text-align: center;
+}
+table caption {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: black;
+  }
+ 
+  .page-header_heading {
+    font-size: 2rem;
+    color: hotpink;
+}
+.navigation-link {
+  color: yellow;
+  margin: 5px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: blue;
+  position: static;
+  gap: 24px;
+}
+.hamburger {
+  padding: 4px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  display: none;
+}
+}
+@media screen and (min-width: 1280px) {
+   .page-header_heading {
+    font-size: 3rem;
+}
+}
+
+
+/*element.addEventListener(type, listener[, options])
+*/
+
+/*element.addEventListener('click', nazwaFunkcji);
+*/
+
+
+
+
+
+
+
+
+
+

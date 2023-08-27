@@ -5,25 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WTF: Co ten front end</title>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="nauka-html.css" />
+    <link rel="stylesheet" href="normalize.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">Strona Główna</a>
-        <a href="nauka-html.html">Nauka HTML</a>
+    <header class="header">
+      <button class="hamburger hamburger--js" aria-label="Menu">🍔</button>
+      <nav class="navigation navigation-js">
+        <a class="navigation-link" href="homepage.html">Strona Główna</a>
+        <a class="navigation-link" href="nauka-html.html">Nauka HTML</a>
       </nav>
     </header>
     <main>
-      <header id="up">
-        <h1>Nauka html-a</h1>
+      <header class="page-header" id="up">
+        <h1 class="page-header_heading page-header_heading--js">
+          Maciek Korsan - Strona Domowa
+        </h1>
       </header>
       <section>
         <h2>Moje ulubione zanczniki</h2>
-        <article>
-          <h3>h1</h3>
-          <p>Jest to najważniejszy nagłówek na stronie</p>
-          <h3>Nagłówek</h3>
+        <div class="article-grid">
+        <article class="my-article">
+          <h3>&lt;h1&gt;</h3>
+          <p>Jest to najważniejszy nagłówek na stronie. Kosztuje 1000&euro;</p>
+          </article>
+          <article class="my-article">
+            <h3>&lt;h1&gt;</h3>
+            <p>Jest to najważniejszy nagłówek na stronie. Kosztuje 1000&euro;</p>
+            </article>
+            <article class="my-article">
+              <h3>&lt;h1&gt;</h3>
+              <p>Jest to najważniejszy nagłówek na stronie. Kosztuje 1000&euro;</p>
+              </article>
+              <article class="my-article">
+                <h3>&lt;h1&gt;</h3>
+                <p>Jest to najważniejszy nagłówek na stronie. Kosztuje 1000&euro;</p>
+                </article>
+              </div>
+          <h3 class="naglowek naglowek-js">Nagłówek</h3>
           <p>testowa treść</p>
         </article>
         <article>
@@ -40,11 +59,13 @@
             pracy.
           </p>
         </article>
+      
       </section>
       <footer>
         Strona domowa Maćka Korsana, wszystkie efekty są efektem tworzenia
         szkolenia WTF: co ten frontend.<a href="#up">Do góry🐱‍🏍🔝</a>
       </footer>
+      <script src="hamburger.js"></script>
     </main>
   </body>
 </html>

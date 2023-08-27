@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WTF: Co ten front end</title>
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button class="hamburger hamburger--js" aria-label="Menu">🍔</button>
+      <nav class="navigation navigation-js">
+        <a class="navigation-link" href="homepage.html">Strona Główna</a>
+        <a class="navigation-link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation-link" href="#">Instagrram</a>
+        <a class="navigation-link" href="#">Facebook</a>
+        <a class="navigation-link" href="#">LinkedIn</a>
+      </nav>
+    </header>
+    <main>
+      <header class="page-header" id="up">
+        <h1 class="page-header_heading page-header_heading--js">
+          Wojciech Majewski - Strona Domowa   
+          <!-- Linijki wyzej nie widac przez java script -->
+        </h1>
+        <button class="page-header_button page-header_button--js">
+          Zmień tekst nagłówka</button>
+      </header>
+      <section class="section">
+        <h2 class="section_header">Kim jestem?</h2>
+        <div class="flex">
+        <img
+          class="Raju"
+          src="Monster truck.JPG"
+          alt="Zdjęcie Wojciecha Majewskiego"
+        />
+      </div>
+        <article class="my-article">
+        <p>
+          Hej! NA co dzień uczę wspaniałych ludzi tajnej sztuki frontendu w
+          ramach szkolenia
+          <a href="https://cotenfrontend.pl" target="_blank">WTF</a> i pracuje
+          jako frontend developer w
+          <i id="name" style="color: lightsteelblue">kilku produktach.</i>
+          <br />
+          <span class="text-distnguish">Poza tym bardzo lubię</span> robić
+          zdjęcia i latać dronem.<br />
+          <span class="text-distnguish">Witam cię na mojej stronie domowej</span
+          >, mam nadzieje że znajdziesz tu trochę przydatnych rzeczy.
+        </p>
+        <p>Poczytaj więcej o <a href="#szkolenie">nagrywaniu szkolenia</a></p>
+        </article>
+      </section>
+      <section>
+        <h2>Notatki z WTF: Co ten Frontennd</h2>
+        <article class="my-article">
+          <h3>Jak stworzyć prawidłowego HTML-a?</h3>
+          <p>
+            Tworzenie zgodnego z ze standardami HTML-a to sztuka, którą do
+            perfekcji opanowało niewielu. Jeśli chcesz chcesz stać się częścią
+            tej grupy, musisz wykazać się otwartą głową i dużą ilością wolnego
+            czasu...
+          </p>
+        </article>
+        <article>
+          <h3 class="my-article__header">JavaScript</h3>
+          <p class="my-article__content">yolyol</p>
+          <!--          <p class="my-article__content">yolyol - nie zadziala przez JS </p>-->
+        </article>
+        <article>
+          <h3>Git</h3>
+          <p>to jest treść dotycząca gita</p>
+        </article>
+        <article id="szkolenie">
+          <h3>Czy nagrywanie szkolenia to prosta sprawa?</h3>
+          <p class="paragraph">
+            Na początku myślałem, że całe szkolenie nagram w 2 tygodnie (o ja
+            naiwny!). Samo planowanie rzeczy zajęło o dużo więcej! Na szczęście
+            dzięki wsparciu bliskich i sporej motwacji udało mi się wytworzyć
+            schemat nagrywania, który każdego dnia przybliża mnie do skończenia
+            pracy.
+          </p>
+        </article>
+        <article class="my-article">
+          <h3 class="my-article__header">Moje ulubione znaczniki</h3>
+          <ul class="my-article__list">
+            <li>h1</li>
+            <li>ul</li>
+            <li>a</li>
+          </ul>
+          <h3>Weapons</h3>
+          <dl>
+            <dt>Main Weapons</dt>
+
+            <dd>
+              The World of Reamnant 2 uses all sorts of weapons. The player is
+              equiped with three categories of waeapons a main waepon like a
+              shotgun or a rifle, a subweapon for example a pistol and a melee
+              weapon.
+            </dd>
+
+            <dt>Sub Weapons</dt>
+            <dd>
+              These come in handy when you you are running low on your main
+              weapon ammo however you shouldn't rely on them too much because
+              their usage is limited until you find ammo for your main weapon
+            </dd>
+          </dl>
+          <dl>
+            <dt>h1</dt>
+            <dd>Najważniejszy nagłówek</dd>
+          </dl>
+        </article>
+
+        <article class="my-article">
+          <h3 class="my-article__header">Kroki do stworzenia pliku html</h3>
+          <ol>
+            <li>Otworzyć edytor</li>
+            <li>! [tab]</li>
+            <li>zapisz plik</li>
+          </ol>
+        </article>
+        <article>
+          <h3 class="my-article__header">Lekcja WTF</h3>
+          <table>
+            <caption>
+              Rozpiska WTF
+            </caption>
+            <div>
+            <thead>
+              <tr>
+                <th>Numer Lekcji</th>
+                <th>Tytuł</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Hello World</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Narzedzia</td>
+                <td>✔</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Prace domowe</td>
+                <td>❌</td>
+              </tr>
+            </tbody>
+          </div>
+          </table>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p class="footer-description">
+        Strona domowa Maćka Korsana, wszystkie efekty są efektem tworzenia
+        szkolenia WTF: co ten frontend.
+      </p>
+      <a class="footer__top-link" href="#up">Do góry🐱‍🏍🔝</a>
+    </footer>
+    <script defer src="main.js"></script>
+  </body>
+</html>

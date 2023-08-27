@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="forms___styles.css">
+</head>
+<body>
+  <main>
+  <header class="page header" id="top">
+    <h1 class="page-header__heading page-">Formularze</h1>
+  </header>
+  <section class="form">
+    <form action="https://forms.cotenfrontend.pl" method="post">
+      <p>
+        <label for="firstName">Imię</label>
+        <input placeholder="imię" value="Wojtek" id="firstName" type="text" name="firstName"/>
+      </p>
+      <p>
+        <label for="lastName">Nazwisko</label>
+        <input required placeholder="nazwisko" id="lastName" type="text" name="lastName"/>
+      </p>
+      <p>
+        <label for="secret">Tajna wiadomość</label>
+        <input required placeholder="secret"  id="secret" type="password" name="lastName"/>
+      </p>
+      <p>
+        <label for="size">Wybierz opcję</label>
+        <select id="size" name="size">
+         <option value="s">S</option>
+         <option  value="m">M</option>
+         <option  value="l">L</option>
+         <option selected  value="xl">XL</option>
+        </select>
+      </p>
+      <p>
+        <label for="avatar">Avatar</label>
+        <input placeholder="avatar"  id="avatar" type="file" name="avatar"/>
+      </p>
+      <p>
+      <label for="favnumber">Ulubiona liczba</label>
+      <input type="range" id="favnumber" name="favnumber" min="0" max="100" value="20" step="5"/>
+      <p>
+        <label for="age">Wiek</label>
+        <input placeholder="Twój wiek" id="age" type="number" name="age"/>
+      </p>
+      <fieldset>
+        <legend>Dane adresowe:</legend>
+        <p>
+          <label for="street">Ulica</label>
+          <input placeholder="Twoja ulica"  id="street" type="text" name="street"/>
+        </p>
+        <p>
+          <label for="city">Miasto</label>
+          <input placeholder="Twoje miasto"  id="city" type="text" name="city"/>
+        </p>
+        <p>
+          <label for="postalCode">kod pocztowy</label>
+          <input placeholder="Kod pocztowy"  id="posatalCode" type="text" name="posatalCode" pattern="[0-9]{2}-[0-9]{3}" required/>
+        </p>
+        <p>
+          <label for="phone">Nr telefonu</label>
+          <input placeholder="Twój numer"  id="phone" type="tel" name="phone"/>
+        </p>
+        <p>
+          <label for="email">E-mail</label>
+          <input placeholder="Twój email"  id="email" type="email" name="email"/>
+        </p>
+      </fieldset>
+      <fieldset>
+      <legend>Ulubione lody:</legend>
+      <p>
+        <label>
+      <input name="icecream" type="radio" value="chocolate"/>Czekoladowe
+    </label>
+    </p>
+    <p>
+      <label>
+    <input checked name="icecream" type="radio" value="vanilla"/>Waniliowe
+  </label>
+  </p>
+  <p>
+    <label>
+  <input name="icecream" type="radio" value="sweet-carmel"/>Słodki karmel
+</label>
+</p>
+  </fieldset>
+  <fieldset>
+    <legend>Ulubione zespoły:</legend>
+    <p>
+      <label>
+    <input name="band" type="checkbox" value="radiohead"/>Radiohead
+  </label>
+  </p>
+  <p>
+    <label>
+  <input checked name="band" type="checkbox" value="metallica"/>Metallica
+</label>
+</p>
+<p>
+  <label>
+<input name="band" type="checkbox" value="nirvana"/>Nirvana
+</label>
+</p>
+</fieldset>
+<p>
+  <label for="comment">Komentarz</label>
+<textarea placeholder="comment" name="comment" id="comment"></textarea>
+</p>
+<p>
+  <input type="submit" value="wyślij"> <! –– można też "button" zamiast inputa dać ––> 
+</p>
+
+    </form>
+
+  </section>
+</main>
+</body>
+</html>
