@@ -1,7 +1,14 @@
+import { calculate as superCalculate } from "./calculate";
+import * as nowaNazwa from "./calculate";
+import differenceInDays from 'date-fns/differenceInDays'
+
+
+console.log(nowaNazwa.tax)
 const age = '38'
 const firstName = 'Wojtek';
 console.log(firstName);
 console.log(age);
+const calculate = () => 'hej hej obliczam';
 console.log(`Nazywam się ${firstName} i mam ${age} lat`);
 const header = document.querySelector(".page-header_heading--js");
 console.log(header);
@@ -11,8 +18,8 @@ console.log(header.style);
 header.style.color = "red";
 const dupa = document.querySelector(".my-article__content");
 dupa.innerHTML = "Jestem wypełniony javascriptem😋";
-const myNumber = '7'
-const calculate = (myNumber) => (myNumber + 4) * 7;
+const myNumber = 7
+
 
 const result = calculate(myNumber);
 console.log(result);
@@ -92,3 +99,16 @@ const text = "Hello, world!";
 const number = 42;
 const pipa = text + number;
 console.log(pipa)
+
+try {
+
+
+const resultDays = differen ceInDays(
+  new Date(2023, 12, 18, 23, 0),
+  new Date()
+)
+} catch(e) {
+alert('cos poszlo nie tak');
+}
+alert('ok');
+console.log(resultDays);

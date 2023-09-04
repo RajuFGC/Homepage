@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
   font-size: 20px;
@@ -7,14 +8,15 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 body {
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
   font-family: Arial, Helvetica, sans-serif;
 }
-main {
-  max-width: 768px;
-  margin: 0 auto;
+.section_header {
+  color: red;
 }
+
 h1 {
   color: purple;
   padding: 10px;
@@ -23,58 +25,55 @@ h2 {
   color: #4c26b48f;
   background-color: white;
 }
+.naglowek {
+  color:red ;
+}
 section {
   background-color: whitesmoke;
   padding: 10px;
-  color: purple;
-}
-.section_header {
-  color: red;
-}
-section a {
-  color: orange;
-  
-}
-
-section p {
-  line-height: 1.5;
-  font-size: 20px;
-}
-.flex {
-  display: flex;
-  justify-content: center;
 }
 .Raju {
-  border-radius: 5px;
-  margin-bottom: 24px;
-  align-items: center;
-  justify-content: center;
   width: 250px;
   height: 350px;
 }
 
 #szkolenie {
   background-color: red;
-  padding: 15px;
-  color: yellow;
-  margin: 0;
 }
+
+p {
+  color: blue;
+}
+
 .paragraph {
   color: chartreuse;
 }
+
+section a {
+  color: orange;
+}
+
 .my-article p {
   padding: 15px;
   color: yellow;
   background-color: darkblue;
   margin: 0;
+
 }
 
-.my-article {
-  color: black
-  }
-  .my-article__list {
-  list-style-type: circle;
-  }
+#name {
+  color: red;
+}
+.section {
+  color: purple;
+  background-color: #4c26b48f;
+}
+
+footer {
+  padding: 10px;
+  color: red;
+}
+
 
 .navigation-link {
   color: yellow;
@@ -109,7 +108,6 @@ section p {
   font-size: 30px;
 }
 .header {
-  position:relative;
   display: flex;
   justify-content: flex-end;
   position: sticky;
@@ -125,23 +123,10 @@ section p {
   font-weight: 600;
   letter-spacing: 0.05em;
 }
-.page-header_button {
-  background-color: blue;
-  color: white;
-  font-weight: 700;
-  border: 0;
-  display: inline-block;
-  border-radius: 15px;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  }
-  footer {
-    padding: 10px;
-    color: red;
-    max-width: 768px;
-    margin: 0 auto;
-  }
+main {
+  max-width: 768px;
+  margin: 0 auto;
+}
 .footer__top-link {
   position: fixed;
   bottom: 16px;
@@ -153,13 +138,22 @@ section p {
   display: block;
 }
 .footer-description {
-  
+  max-width: 768px;
+  margin: 0 auto;
 }
-
+section p {
+  line-height: 1.5;
+  font-size: 20px;
+}
 .text-distnguish {
-color: grey;
+color: black;
 }
-
+.my-article {
+color: hotpink;
+}
+.my-article__list {
+list-style-type: circle;
+}
 
 table {
   width: 100%;
@@ -168,11 +162,18 @@ table {
 table caption {
   margin-bottom: 2rem;
 }
+.article-grid {
+  grid-template-columns: 1fr;
+  gap: 12px;
+  display: grid;
+}  
 @media screen and (min-width: 768px) {
   body {
     background: black;
   }
- 
+  .article-grid {
+    grid-template-columns: 1fr 1fr;
+  } 
   .page-header_heading {
     font-size: 2rem;
     color: hotpink;
@@ -202,8 +203,23 @@ table caption {
    .page-header_heading {
     font-size: 3rem;
 }
-}
+.article-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+} 
 
+}
+  
+.page-header_button {
+background-color: blue;
+color: white;
+font-weight: 700;
+border: 0;
+display: inline-block;
+border-radius: 15px;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
 
 /*element.addEventListener(type, listener[, options])
 */

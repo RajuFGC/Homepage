@@ -1,20 +1,22 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "description": "",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/homepage.html",
     "build": "parcel build src/homepage.html"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^2.30.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "description": ""
 }

@@ -1,0 +1,23 @@
+.page-header {
+  padding: 10px;
+  &_heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+  &_heading::before {
+    content: "💥";
+  }
+  &_heading::after {
+    content: "💥";
+  }
+  &_button {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    border: 0;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px 10px;
+    }
+}
