@@ -100,15 +100,3 @@ const number = 42;
 const pipa = text + number;
 console.log(pipa)
 
-try {
-
-
-const resultDays = differen ceInDays(
-  new Date(2023, 12, 18, 23, 0),
-  new Date()
-)
-} catch(e) {
-alert('cos poszlo nie tak');
-}
-alert('ok');
-console.log(resultDays);
