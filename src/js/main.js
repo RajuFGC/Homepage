@@ -79,15 +79,15 @@ const greet = (name, age) => {
 }
 console.log(greet('Maciek',35));
 
-const button = document.querySelector('.page-header_button--js');
-console.log(button)
+
 
 const clickFunction = (e) => {
 const header = document.querySelector('.page-header_heading--js');
 header.innerHTML = 'Wojciech Majewski - Strona Domowa'
 }
+const button = document.querySelector('.page-header_button--js');
+console.log(button)
 button.addEventListener('click', clickFunction);
-
 const hamburger = document.querySelector('.hamburger--js');
 console.log(hamburger)
 
