@@ -9,7 +9,7 @@ $textColor: hotpink;
   --textColor: hotpink;
   --backgroundColor: whitesmoke;
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 :root {
   --textColor: green;
   --backgroundColor: black;

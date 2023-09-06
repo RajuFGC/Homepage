@@ -1,3 +1,8 @@
+import { NakedSnake } from "./hamburger";
+import { Snake } from "./hamburger";
+console.log(NakedSnake);
+console.log(Snake);
+
 console.log('logika js');
 if (('2' !== 2) || (2 !== 2)) {
   console.log('to jest prawda')

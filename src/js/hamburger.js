@@ -1,3 +1,6 @@
+
+
+
 const hamburger = document.querySelector('.hamburger--js');
 console.log(hamburger)
 
@@ -9,10 +12,6 @@ const headerH3 = document.querySelector('.naglowek-js')
 headerH3.innerHTML = 'kupa dupa'
 
 headerH3.style.color = 'blue';
-
-
-
-
 
 const calculate1 = (myNumber) => {
   myNumber = myNumber + 3;
@@ -64,12 +63,12 @@ function dude ()  {
 dude ()
 
 
-const NakedSnake = {
+ export const NakedSnake = {
   name: 'Bob',
   age: 32
 }
 
-const Snake = {
+   export const Snake = {
   name: NakedSnake.name,
   age: NakedSnake.age
 }
