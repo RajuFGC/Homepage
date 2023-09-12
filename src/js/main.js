@@ -85,9 +85,17 @@ const clickFunction = (e) => {
 const header = document.querySelector('.page-header_heading--js');
 header.innerHTML = 'Wojciech Majewski - Strona Domowa'
 }
-const button = document.querySelector('.page-header_button--js');
-console.log(button)
-button.addEventListener('click', clickFunction);
+const button2 = document.querySelector('.page-header_button--js');
+
+button2.addEventListener('click', clickFunction);
+
+const button1 = document.querySelector('.page-header_button-background--js');
+console.log(button1)
+button1.addEventListener('click', (e) => {
+  document.documentElement.style.setProperty('--backgroundColor', 'black')
+})
+
+
 const hamburger = document.querySelector('.hamburger--js');
 console.log(hamburger)
 
