@@ -1,10 +1,10 @@
 @import "components/page-header.scss";
 @import "../../node_modules/normalize.css/normalize.css";
-$textColor: hotpink;
-
+@import "components/navigation.scss";
+@import "components/section-1.scss";
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
-
-
+$textColor: hotpink;
+$mycolor: yellow;
 :root {
   --textColor: hotpink;
   --backgroundColor: whitesmoke;
@@ -44,15 +44,8 @@ h2 {
 h3 {
   color: blueviolet;
 }
-.page-header_button-background {
-  background-color: blue;
-  color: white;
-  font-weight: 700;
-  border: 0;
-  display: inline-block;
-  border-radius: 15px;
-  padding: 5px 10px;
-  }
+
+
 section {
  background: var(--backgroundColor);
  color: var(--textColor);
@@ -66,21 +59,6 @@ section {
     font-size: 20px;
   }
 }
-.section-1 {
-  padding: 10px;
-  &_header {
-    color: $textColor;
-  }
-  &_header::before {
-    content:"☢";
-    color: black;
-    }
-    &_header::after {
-      content:"☢";
-      color: black;
-    }
-}
-
 
 .flex {
   display: flex;
@@ -106,7 +84,7 @@ section {
 }
 .my-article p {
   padding: 15px;
-  color: yellow;
+  color: $mycolor; /*kolor zmieniony przez $mycolor ustalony wyzej*/
   background-color: darkblue;
   margin: 0;
 }
@@ -144,33 +122,7 @@ color: goldenrod;
     color: goldenrod;
       }
 
-.navigation {
-  display: none;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
-  background: blue;
-  gap: 24px;
-  position: absolute;
-  top: 33px;
-  width: 100%;
-  &-link {
-    color: yellow;
-    margin: 5px;
-  }
-  &-open {
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
-    background: blue;
-    gap: 24px;
-    position: absolute;
-    top: 33px;
-    width: 100%;
-    padding-bottom: 4px;
-  }
-}
+
 .hamburger {
   padding: 4px;
   background: none;

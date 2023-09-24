@@ -1,0 +1,14 @@
+.section-1 {
+  padding: 10px;
+  &_header {
+   color: hotpink; 
+  }
+  &_header::before {
+    content:"☢";
+    color: black;
+    }
+    &_header::after {
+      content:"☢";
+      color: black;
+    }
+}

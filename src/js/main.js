@@ -103,8 +103,26 @@ hamburger.addEventListener('click', () => {
   const navigation = document.querySelector('.navigation-js')
   navigation.classList.toggle('navigation-open')
 } )
+
+
 const text = "Hello, world!";
 const number = 42;
 const pipa = text + number;
 console.log(pipa)
 
+
+const myDog = {
+  name: "Fabio",
+  hi: () => {
+    console.log('hi')
+  },
+  age: 16,
+  hobby: ['toys','food','walks']
+}
+console.log(myDog)
+myDog.hi()
+const myJSON = JSON.stringify(myDog)
+console.log(typeof myJSON);
+
+const myParsedObejct = JSON.parse(myJSON);
+console.log(myParsedObejct);
