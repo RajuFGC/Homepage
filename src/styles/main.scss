@@ -43,7 +43,21 @@ h2 {
 }
 h3 {
   color: blueviolet;
+  display: inline-block;/*in order for animations to take place we need to set the display:inline-block;*/
+  transform-origin: bottom center ;
+  animation: wave 2s infinite alternate ;/*first value tells us how long the animation will last and the second one is responsible for the number of times it will take place. Instead of "5" we can set the value to "infinite"*/
 }
+@keyframes wave {/*this is the name of animation*/
+  0% {/*we can also set it to "from"*/
+    transform: rotate(10deg);
+  }
+ 50% {
+  
+ }
+  100% {/*and here we set it to "to"*/
+    transform: rotate(-10deg);
+  }
+  }
 
 
 section {
