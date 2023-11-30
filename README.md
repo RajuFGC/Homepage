@@ -1,7 +1,10 @@
 # Homepage
-Zapraszam na moją stronę [RajuHomepage](https://rajutestsite.netlify.app)
-Jest to testowa strona także nie ma tam jeszcze za wiele mojego własnego contentu co zmieni się w przyłości
-##Technologie 
+
+Please visit [RajuHomepage](https://rajutestsite.netlify.app)
+When I started to learn about HTML, CSS and Java Script this was the first project I started to test and practice with. Basically, it's a playground and it will stay that way.
+
+#Technologies:
+
 - HTML
 - Flex
 - Grid
